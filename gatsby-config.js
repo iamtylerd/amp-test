@@ -33,7 +33,7 @@ module.exports = {
         canonicalBaseUrl: 'https://sharpside.com/',
         components: ['amp-layout'],
         excludedPaths: ['/404*'],
-        includedPaths: ['/*'],
+        pathIdentifier: "/amp/",
         relAmpHtmlPattern: '{{canonicalBaseUrl}}{{pathname}}',
         useAmpClientIdApi: true,
       },
